@@ -1,0 +1,1 @@
+A script is created in Editor folder "EditorFolderCreator". This script creates an add'l menu in tool bar.

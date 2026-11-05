@@ -8,10 +8,10 @@ public class CreateFolderInSpecifiedPath : MonoBehaviour
     // Creates "MyFolder" in the specified path and checks it
     void Start()
     {
-        Directory.CreateDirectory(folder);
+        Directory.CreateDirectory(folder);  // creates it if missing, does nothing if it exists
 
         if (Directory.Exists(folder))
-            Debug.Log("Folder is created");
+            Debug.Log("Folder exists");
         else
             Debug.Log("Folder does not exist");
     }
